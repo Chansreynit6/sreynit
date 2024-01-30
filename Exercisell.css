@@ -1,0 +1,87 @@
+.container{
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    
+}
+.box1{
+text-align: left;
+}
+.box2{
+    text-align: right;
+}
+.box3{
+    text-align: center;
+}
+.box4{
+    text-align: left;
+}
+.sticky{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+        position: sticky;
+        top: 0em;
+    
+}
+.box-2{
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    color: aliceblue;
+}
+.boxx1{
+    width: 115px;
+    background-color:black;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.boxx2{
+    width: 115px;
+    background-color: grey;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.boxx3{
+    width: 115px;
+    background-color: red;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.boxx4{
+    width: 115px;
+    background-color: rgb(206, 206, 36);
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.boxx5{
+    width: 115px;
+    background-color: green;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+
+

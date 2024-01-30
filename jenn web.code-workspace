@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../jenn web"
+		},
+		{
+			"path": "../Ngoun Chan SreyNit"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ngoun Chan SreyNit"
+	}
+}
