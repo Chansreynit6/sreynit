@@ -1,5 +1,5 @@
 .container{
-    width: 900px;
+    /* width: 900px; */
     height: auto;
     margin: auto;
     overflow: hidden;
@@ -34,7 +34,7 @@
     width: 100%;
     height: 600px;
     font-size: 18px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(133, 2, 2);
     font-family: 'Times New Roman', Times, serif; 
     position: relative;
 
@@ -44,7 +44,7 @@
         width: 380px;
         height: 380px;
         border-radius: 51px;
-        background-color: white;
+        background-color: rgb(41, 252, 241);
         position: absolute;
         right: 30px;
         top: 200px;
@@ -63,21 +63,30 @@
         position: relative;
     } */
 .box2{
-    width: 40%;
-    background-color:rgb(255, 255, 255);
-    height: 300px;
+    width: 500px;
+    background-color:rgb(206, 24, 136);
+    height: 400px;
     position: absolute;
-    left: 35px;
-    top: 200px;
-    
+    right:10px;
+    left: 10%;
+    top: -10px;
     padding: 5px;
+    margin-right: 50px;
+     }
+     .box2 h1{
+        color: white;
+        background-color: burlywood;
+        margin-left: 70px;
+     }
+     .box2 p{
+        margin-left: -50px;
      }
     .box1 h3{
         color: #000;
         text-align: center;
-        font-family: t;
-        font-size: 18px;
-        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin-left: 50px;
         font-weight: 400;
         line-height: normal; 
         
@@ -86,10 +95,12 @@
         color: #000;
         text-align: center;
         font-family: t;
-        font-size: 30px;
+        font-size: 60px;
         font-style: normal;
         font-weight: 400;
         line-height: normal; 
+        margin-top: -60px;
+        margin-right: 50pxpx;
         
     }
     .box1 h5{
@@ -128,8 +139,8 @@
         top: 200px;
      }
      .boxj-1 img{
-         width: 90%;
-          height: 100%;
+         width: 80%;
+          height: 90%;
          border-radius: 51px;
          object-fit: cover;
          margin-top: -75px;
@@ -138,11 +149,11 @@
      }
      .boxj-2{
         background-color: rgb(255, 255, 255);
-        width: 48%;
-        height: 300px;
+        width: 50%;
+        height: 450px;
         position: absolute;
         left: 70px;
-        top: 170px;
+        top: 120px;
      }
     .boxj-2 h1{
         text-align: center;
@@ -151,4 +162,62 @@
         font-size: 27px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
+    }
+ 
+    .contactt{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        margin-top:-21px;
+       }
+     .contactt h1{
+        margin-left: 70px;
+        margin-top: 120px;
+        
+     }
+     .contactt p{
+        margin-left: 50px;
+        margin-top: 50px;
+     }
+      .boxx{
+        width: 60%;
+        height: 50px;
+        margin-left: 50px;
+        display: flex;
+        
+      }
+      .boxx1{
+        width: 300px;
+        height: 200px;
+        float: right;
+        margin-top:-200px;
+        margin-right: 100px;
+        display: flex;
+      }
+      .boxx1 p{
+        display: flex;
+        margin-top: -30px;
+        margin-right: -140px;
+      }
+      .submit{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        float: right;
+        margin-right: 310px;
+        margin-top: 20px;
+       
+      }
+      .contactus{
+        width: 80px;
+        height: 25px;
+        padding: 10px 10px;
+        text-align: center;
+        background-color: rgb(97, 135, 216);
+        border-radius: 10px;
+        float: right;
+        margin-right: 130px;
+        
+       
+       
     }
