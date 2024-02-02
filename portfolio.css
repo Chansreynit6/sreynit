@@ -34,20 +34,21 @@
     width: 100%;
     height: 600px;
     font-size: 18px;
-    background-color: rgb(133, 2, 2);
+    background-color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif; 
     position: relative;
 
     }
    
     .box1-1{
-        width: 380px;
+        width: 400px;
         height: 380px;
         border-radius: 51px;
-        background-color: rgb(41, 252, 241);
+        background-color: rgb(255, 255, 255);
         position: absolute;
-        right: 30px;
+        right: 10px;
         top: 200px;
+    
        
         
     }
@@ -57,26 +58,30 @@
     border-radius: 51px;
     object-fit: cover;
     margin-top: -100px;
+   position: absolute;
+   right: 20%;
    
    }
-    /* menu-bar-p{
-        position: relative;
-    } */
+  
 .box2{
-    width: 500px;
-    background-color:rgb(206, 24, 136);
+    width: 800px;
+    background-color:rgb(255, 255, 255);
     height: 400px;
-    position: absolute;
-    right:10px;
-    left: 10%;
-    top: -10px;
+    position: absolute;   
+    left: 5%;
+    bottom:40px ;
     padding: 5px;
-    margin-right: 50px;
+    margin-right: 100px;
+    /* font-family: 'Times New Roman', Times, serif; */
      }
      .box2 h1{
-        color: white;
-        background-color: burlywood;
-        margin-left: 70px;
+        color: rgb(43, 209, 181);
+        background-color: rgb(255, 255, 255);
+        margin-left: 50px;
+        width: 800px;
+         
+      
+        
      }
      .box2 p{
         margin-left: -50px;
@@ -103,6 +108,39 @@
         margin-right: 50pxpx;
         
     }
+
+    .contact-2{
+        position: relative;
+    }
+    .boxxx{
+        width: 60%;
+        height: 50px;
+        margin-left: 50px;
+        display: flex;
+        right: 50px;
+        position: absolute;
+        bottom:-2px ;
+       
+    }
+       .boxx-x{
+        width: 60%;
+        height: 50px;
+        margin-left: 50px;
+        display: flex;
+        right: 50px;
+        position: absolute;
+        /* bottom:-10px ; */
+        top: 370px;
+        
+       }
+
+    .contact-2 p{
+        position: absolute;
+        left: 640px;
+        bottom:50px ;
+    }
+    
+    
     .box1 h5{
         color: #000;
         font-family: 'Times New Roman', Times, serif;
@@ -118,7 +156,8 @@
         padding: 3px;
         display: flex;
         justify-content: space-evenly;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
+        width: 100%;
     }
     .boxj{
         width: 100%;
@@ -130,17 +169,17 @@
     
      }
      .boxj-1{
-        width: 380px;
-        height: 380px;
+        width: 450px;
+        height: 400px;
         border-radius: 51px;
         background-color: rgb(255, 255, 255);
         position: absolute;
-        right: 50px;
+        right: 100px;
         top: 200px;
      }
      .boxj-1 img{
-         width: 80%;
-          height: 90%;
+         width: 300px;
+          height: 100%;
          border-radius: 51px;
          object-fit: cover;
          margin-top: -75px;
@@ -149,35 +188,63 @@
      }
      .boxj-2{
         background-color: rgb(255, 255, 255);
-        width: 50%;
-        height: 450px;
+        width: 40%;
+        height: 300px;
         position: absolute;
-        left: 70px;
-        top: 120px;
+        left: 200px;
+        top: 50px;
+        font-size: 40px;
      }
     .boxj-2 h1{
         text-align: center;
     }
     .boxj-2 p{
-        font-size: 27px;
+        font-size: 30px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
  
     .contactt{
         width: 100%;
-        height: 500px;
+        height: 600px;
         background-color: rgb(255, 255, 255);
-        margin-top:-21px;
-       }
+           }
+      
      .contactt h1{
         margin-left: 70px;
-        margin-top: 120px;
-        
-     }
+        margin-top: 10px;
+        font-size: 50px;
+        color:rgb(0, 0, 0);
+            }
+      .map{
+       position: relative;
+         
+      }
+      .map img{
+        background-color: aqua;
+        width: 450px;
+        height: 300px;
+        position: absolute;
+        margin-left: 1020px;
+        object-fit: cover;
+        bottom:-280px ;
+      }
      .contactt p{
         margin-left: 50px;
         margin-top: 50px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+    
+     .contact-3 p{
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        bottom: 440px;
+        left: 600px;
+        background-color: rgb(255, 255, 255);
      }
       .boxx{
         width: 60%;
@@ -186,38 +253,46 @@
         display: flex;
         
       }
-      .boxx1{
+      /* .boxx1{
         width: 300px;
         height: 200px;
         float: right;
         margin-top:-200px;
-        margin-right: 100px;
+        margin-right: 10px;
         display: flex;
-      }
-      .boxx1 p{
-        display: flex;
+        
+        
+      } */
+     
+      .boxx1 b{
+        /* display: flex; */
         margin-top: -30px;
-        margin-right: -140px;
+       position: absolute;
+       margin-left: -42%;
+       bottom: 450px;
+      font-size: 30px;
+      
+        
       }
-      .submit{
+      .send{
         width: 30px;
         height: 30px;
         display: flex;
         float: right;
         margin-right: 310px;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-right: 39.5%;
        
-      }
+          }
       .contactus{
         width: 80px;
         height: 25px;
         padding: 10px 10px;
         text-align: center;
-        background-color: rgb(97, 135, 216);
         border-radius: 10px;
         float: right;
-        margin-right: 130px;
-        
-       
-       
-    }
+        margin-right: -10px;
+        background-color: rgb(97, 135, 216);
+        margin-top: -60px;
+          }
+          
