@@ -40,10 +40,10 @@
     
    }
     .box1-1{
-        width: 400px;
+        width: 420px;
         height: 360px;
         border-bottom: 1px solid black;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(204, 226, 247);
         margin-left: 200px;
         
         
@@ -76,9 +76,9 @@
      
     }
     .box1-2{
-        width: 400px;
+        width: 420px;
         height: 400px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(204, 226, 247);
         position: absolute;
         left: 200px;
         bottom: 20px;
@@ -135,3 +135,58 @@
             justify-content: space-evenly;
             color: aliceblue;
      }
+     .icon{
+        font-size: 60px;
+        margin-left: 50px;
+        margin-top: 40px;
+     }
+     .box2{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 580px;
+        position: relative;
+     }
+     .box2-1{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        height: 80%;
+        margin-left: 5%;
+        bottom:8% ;
+        position: absolute;
+     }
+     .box2-2{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        height: 80%;
+        margin-left: 37%;
+        bottom:8% ;
+        position: absolute;
+     }
+     .box2-3{
+        background-color: rgb(255, 255, 255);
+        width: 25%;
+        height: 80%;
+        margin-left: 70%;
+        bottom:8% ;
+        position: absolute;
+        
+     }
+     .box2-1 img{
+        width: 380px;
+        height: 250px;
+        position: absolute;
+       top: 40px;
+        }
+        .box2-2 img{
+            width: 380px;
+            height: 250px;
+            position: absolute;
+           top: 40px;
+        }
+        .box2-3 img{
+            width: 380px;
+            height: 250px;
+            position: absolute;
+           top: 40px;
+        }
+     
